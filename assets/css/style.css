@@ -1947,8 +1947,8 @@ label {
   }
 }
 @media (max-width: 991px) {
-  .cs_fs_67 {
-    font-size: 46px;
+  .cs_fs_67, .abt-h {
+    font-size: 28px !important;
   }
 }
 
@@ -4335,7 +4335,7 @@ a.ui-button:active,
   display: inline-block;
   position: absolute;
   top: 28px;
-  left: 0;
+  right: 0;
 }
 .cs_accordians.cs_style_1 .cs_accordian_toggle::before, .cs_accordians.cs_style_1 .cs_accordian_toggle::after {
   content: "";
@@ -4356,7 +4356,7 @@ a.ui-button:active,
 }
 .cs_accordians.cs_style_1 .cs_accordian_head {
   position: relative;
-  padding: 18px 0 18px 26px;
+  padding: 18px 0 18px 0;
   cursor: pointer;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -8507,7 +8507,7 @@ a.ui-button:active,
 }
 .cs_card.cs_style_1.cs_color_1 .cs_card_title,
 .cs_card.cs_style_1.cs_color_1 .cs_primary_color {
-  color: #fff;
+  color: #000;
 }
 
 .cs_card.cs_style_2 .cs_card_info {
